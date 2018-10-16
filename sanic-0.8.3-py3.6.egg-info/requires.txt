@@ -1,0 +1,6 @@
+httptools>=0.0.9
+uvloop>=0.5.3; sys_platform != "win32" and implementation_name == "cpython"
+ujson>=1.35; sys_platform != "win32" and implementation_name == "cpython"
+aiofiles>=0.3.0
+websockets>=5.0,<6.0
+multidict>=4.0,<5.0
